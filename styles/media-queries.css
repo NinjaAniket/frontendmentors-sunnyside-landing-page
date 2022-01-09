@@ -1,0 +1,57 @@
+@media (max-width: 48em) {
+  html {
+    font-size: 56%;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .left-section__wrapper {
+    text-align: center;
+    width: 80%;
+    padding: 5rem 0rem;
+  }
+
+  .secondary-heading {
+    text-align: center;
+  }
+
+  .brands__services--text {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+
+  .learn-more--text {
+    width: 100%;
+  }
+
+  .overlap__text-container-first {
+    width: 75%;
+    top: 64%;
+  }
+
+  .overlap__info {
+    font-size: 1.5rem;
+  }
+
+  .grid--2--col {
+    grid-template-columns: 1fr;
+  }
+
+  .section-brands .left-section {
+    grid-row: 2;
+  }
+
+  .grid--4--col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--3--col {
+    grid-template-columns: 1fr;
+  }
+}

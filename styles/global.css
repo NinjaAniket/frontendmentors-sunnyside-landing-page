@@ -1,0 +1,42 @@
+.btn {
+  background-color: #fff;
+  border-radius: 20px;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: hsl(212, 27%, 19%) !important;
+  font-family: "Fraunces";
+}
+
+.btn:hover {
+  background-color: #70c7f3;
+  color: white !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mr-auto {
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.clr-dark-green {
+  color: var(--very-dark-desaturated-blue);
+}
+
+.grid--3--col {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.grid--4--col {
+  grid-template-columns: repeat(4, 1fr);
+}
